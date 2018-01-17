@@ -9,8 +9,9 @@
   "author": "Igar Ramaddhan",
   "license": "ISC",
   "dependencies": {
-    "mysql": "^2.15.0",
     "body-parser": "*",
-    "express": "*"
+    "express": "*",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0"
   }
 }

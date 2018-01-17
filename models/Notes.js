@@ -20,6 +20,13 @@ let Note = {
       [note.title, note.content, id],
       cb
     )
+  },
+  getNoteById: (id, cb) => {
+    return db.query(
+      'select * from note where id = ? ',
+      [id],
+      cb
+    )
   }
 }
 
