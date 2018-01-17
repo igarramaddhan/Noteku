@@ -1,0 +1,16 @@
+{
+  "name": "noteku",
+  "version": "1.0.0",
+  "description": "MYSQL and Node JS implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igar Ramaddhan",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.15.0",
+    "body-parser": "*",
+    "express": "*"
+  }
+}
